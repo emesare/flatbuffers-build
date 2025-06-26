@@ -17,10 +17,10 @@ mod vendored {
     use tar::Archive;
 
     const SOURCE_URL: &str =
-        "https://github.com/google/flatbuffers/archive/refs/tags/v{version}.tar.gz";
-    const SUPPORTED_FLATC_VERSION: &str = "25.2.10";
+        "https://github.com/emesare/flatbuffers/archive/refs/tags/warp-latest.tar.gz";
+    const SUPPORTED_FLATC_VERSION: &str = "warp-latest";
     const CHECKSUM_SHA256: &str =
-        "b9c2df49707c57a48fc0923d52b8c73beb72d675f9d44b2211e4569be40a7421";
+        "6c0d569292b25654b43a1f347b1a711e90ae687ddc2eadd3f46b0adf21963729";
     const EXTRACT_DIRECTORY_PREFIX: &str = "flatbuffers-{version}";
 
     pub fn vendor_flatc() -> anyhow::Result<()> {

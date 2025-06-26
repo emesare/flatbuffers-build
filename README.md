@@ -34,10 +34,10 @@ of `flatbuffers`:
 # Cargo.toml
 # [...]
 [dependencies]
-flatbuffers = "=25.2.10"
+flatbuffers = { git = "https://github.com/emesare/flatbuffers/", tag = "warp-latest" }
 
 [build-dependencies]
-flatbuffers-build = "=0.1.0"
+flatbuffers-build = { git = "https://github.com/emesare/flatbuffers-build/", tag = "warp-latest" }
 # [...]
 ```
 
